@@ -27,4 +27,7 @@
   .viewWrap {
     padding-top: 20px;
   }
+  a + a {
+    margin-left: 10px;
+  }
 </style>
