@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h3>Example Vuex App</h3>
+    <h3>Example Vue Router App</h3>
     <router-link to="/">Clap</router-link>
     <router-link to="/links">Links</router-link>
     <div class="viewWrap">
