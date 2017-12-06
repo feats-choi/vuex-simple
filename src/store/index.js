@@ -1,15 +1,16 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import hello from './modules/hello'
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-  state: {},
-  actions: {},
-  getters: {},
-  mutations: {},
-  modules: {
-    hello
+  state: {
+    claps: 0
+  },
+  mutations: {
+    increment: (state) => {
+      console.info('state change from vuex');
+      state.claps++
+    }
   },
   strict: true
 })

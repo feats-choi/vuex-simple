@@ -1,1 +1,0 @@
-export const CHANGE_THE_WORLD = 'CHANGE_THE_WORLD'
